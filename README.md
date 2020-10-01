@@ -1,5 +1,6 @@
 # REPO-NAME
-The Ohio State University &lt;ABXX> &lt;COURSE> (COURSE DESCRIPTION) PROJECT DESCRIPTION
+The Ohio State University Autumn 2020 CSE4253 (C# Programming) Programming Assignment 2
 
 ## Instructor
-DR NAME, The Ohio State University, Autumn XXXX Dept. of DEPARTMENT
+Dr. Roger Crawfis, The Ohio State University, Dept. of Computer Science and Engineering
+
