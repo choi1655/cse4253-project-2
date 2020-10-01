@@ -1,4 +1,4 @@
-# REPO-NAME
+# cse4253-project-2
 The Ohio State University Autumn 2020 CSE4253 (C# Programming) Programming Assignment 2
 
 ## Instructor
