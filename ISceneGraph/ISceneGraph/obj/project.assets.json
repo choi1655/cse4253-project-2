@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jchoi/C#/cse4253-project-2/ISceneGraph/ISceneGraph/ISceneGraph.csproj",
-      "projectName": "ISceneGraph",
-      "projectPath": "/Users/jchoi/C#/cse4253-project-2/ISceneGraph/ISceneGraph/ISceneGraph.csproj",
+      "projectUniqueName": "/Users/jchoi/C#/cse4253-project-2/ISceneGraph/ISceneGraph/ISceneNode.csproj",
+      "projectName": "ISceneNode",
+      "projectPath": "/Users/jchoi/C#/cse4253-project-2/ISceneGraph/ISceneGraph/ISceneNode.csproj",
       "packagesPath": "/Users/jchoi/.nuget/packages/",
       "outputPath": "/Users/jchoi/C#/cse4253-project-2/ISceneGraph/ISceneGraph/obj/",
       "projectStyle": "PackageReference",
