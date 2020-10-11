@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Choi.SceneGraph;
 
 namespace Choi.SceneGraphCore
@@ -12,23 +11,31 @@ namespace Choi.SceneGraphCore
             private set;
         }
 
-        public GroupNode()
+        public GroupNode(string name)
         {
+            this.Name = name;
         }
 
         public void Accept(IVisitor visitor)
         {
-            throw new NotImplementedException();
+            visitor.PreVisit(this);
+            foreach (ISceneNode child in children)
+            {
+                child.Accept(visitor);
+            }
+            visitor.PostVisit(this);
         }
 
         public void AddChild(ISceneNode child)
         {
-            throw new NotImplementedException();
+            children.Add(child);
         }
 
         #region Member variables
+
+        private const int INITIAL_SIZE = 8;
         // List to keep track of the cihldren for the group
-        private IList<ISceneNode> children = new List<ISceneNode>(8);
+        private IList<ISceneNode> children = new List<ISceneNode>(INITIAL_SIZE);
 
         #endregion
     }
